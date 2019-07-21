@@ -2,6 +2,7 @@
 
  ###coding:utf-8
 
+
 """
 1.读取两个版本需对比的配置文件，再以换行符做分隔符
 2.调用difflib.HtmlDiff() 生成HTML格式的差异文件
