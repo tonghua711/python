@@ -7,7 +7,10 @@ print('I am thinking of a number between 1 and 20.')
 
 for guessesTaken in range(1,7):
     print('Take a guess.')
-    guess = int(input())
+    try:
+        guess = int(input())
+    except ValueError:
+        print('输入的不是数字')
 
     if guess < secretNumber:
         print('你输入的数字太小')
